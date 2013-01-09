@@ -13,23 +13,31 @@
         <requestFocus />
     </EditText>
 
-    <RadioButton
-        android:id="@+id/celciusButton"
+    <Button
+        android:id="@+id/calculatebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Celcius" />
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inputTempData"
+        android:layout_marginTop="101dp"
+        android:text="Button" />
 
     <RadioButton
         android:id="@+id/fahrenheitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inputTempData"
+        android:layout_marginTop="58dp"
         android:text="Fahrenheit" />
 
-    <Button
-        android:id="@+id/calculatebutton"
+    <RadioButton
+        android:id="@+id/celciusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
-    
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inputTempData"
+        android:layout_marginTop="18dp"
+        android:text="Celcius" />
     
     </RelativeLayout>
